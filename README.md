@@ -5,7 +5,7 @@
 
 I build multi-tenant web platforms end to end — Python and Flask on the backend, React on the frontend, deployed on Azure — and I care about getting the security right from the first design sketch. For two years I was the only web developer behind a fan engagement product used by 10+ football clubs, and I'm now doing an MSc in Cybersecurity to go deeper on application security.
 
-[LinkedIn](https://www.linkedin.com/in/joel-figueiras-b81259206) · Braga, Portugal · open to relocation (UAE / EU)
+[LinkedIn](https://www.linkedin.com/in/joel-figueiras) · Braga, Portugal · open to relocation (UAE / EU)
 
 ## What I work on
 
