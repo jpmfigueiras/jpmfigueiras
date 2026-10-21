@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="312" viewBox="0 0 860 312" role="img" aria-label="Joel Figueiras terminal header">
+<rect x="0.5" y="0.5" width="859" height="311" rx="10" fill="#0d1117" stroke="#30363d"/>
+<path d="M0.5 10.5a10 10 0 0 1 10-10h839a10 10 0 0 1 10 10v22H0.5z" fill="#161b22" stroke="#30363d"/>
+<circle cx="22" cy="17" r="6" fill="#ff5f57"/><circle cx="42" cy="17" r="6" fill="#febc2e"/><circle cx="62" cy="17" r="6" fill="#28c840"/>
+<text x="430.0" y="21" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" fill="#9198a1">joel@braga: ~</text>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14">
+<text x="24" y="58"><tspan fill="#3fb950">joel@braga</tspan><tspan fill="#9198a1">:~$ </tspan><tspan fill="#e6edf3">whoami</tspan></text>
+<text x="24" y="80" fill="#4493f8">Joel Figueiras · Full Stack Developer · Backend, Web &amp; Application Security</text>
+<text x="24" y="102"><tspan fill="#3fb950">joel@braga</tspan><tspan fill="#9198a1">:~$ </tspan><tspan fill="#e6edf3">uptime</tspan></text>
+<text x="24" y="124" fill="#4493f8">3 years shipping production code</text>
+<text x="24" y="146"><tspan fill="#3fb950">joel@braga</tspan><tspan fill="#9198a1">:~$ </tspan><tspan fill="#e6edf3">cat stack.txt</tspan></text>
+<text x="24" y="168" fill="#4493f8">Python · Flask · SQLAlchemy · MySQL · Redis · React · Azure</text>
+<text x="24" y="190"><tspan fill="#3fb950">joel@braga</tspan><tspan fill="#9198a1">:~$ </tspan><tspan fill="#e6edf3">cat focus.txt</tspan></text>
+<text x="24" y="212" fill="#4493f8">MSc Cybersecurity · secure-by-design web platforms</text>
+<text x="24" y="234"><tspan fill="#3fb950">joel@braga</tspan><tspan fill="#9198a1">:~$ </tspan><tspan fill="#e6edf3">git log --since=2026-01-01 | wc -l</tspan></text>
+<text x="24" y="256" fill="#4493f8">contributing in 2026</text>
+<text x="24" y="278"><tspan fill="#3fb950">joel@braga</tspan><tspan fill="#9198a1">:~$ </tspan><tspan fill="#e6edf3">▍<animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
+</g>
+</svg>

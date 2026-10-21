@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="420" viewBox="0 0 860 420" role="img" aria-label="FanZone architecture: club mobile apps and back-office calling a Flask API on Azure App Service, backed by per-club MySQL schemas and Redis">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#57606a"/>
+    </marker>
+    <style>
+      text { font-family: -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #1f2328; }
+      .t { font-size: 14px; font-weight: 600; }
+      .s { font-size: 12px; fill: #59636e; }
+      .lbl { font-size: 11px; fill: #59636e; }
+      .box { fill: #ffffff; stroke: #d0d7de; stroke-width: 1.2; }
+      .key { fill: #ddf4ff; stroke: #54aeff; stroke-width: 1.2; }
+      .sec { fill: #fff8c5; stroke: #d4a72c; stroke-width: 1.2; }
+      .zone { fill: #f6f8fa; stroke: #d0d7de; stroke-dasharray: 5 4; }
+      .line { stroke: #57606a; stroke-width: 1.4; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="860" height="420" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+
+  <!-- clients -->
+  <rect class="box" x="30" y="40" width="230" height="120" rx="8"/>
+  <text class="t" x="46" y="66">Club mobile apps</text>
+  <text class="s" x="46" y="86">native shell (iOS / Android)</text>
+  <rect class="key" x="46" y="98" width="198" height="48" rx="6"/>
+  <text class="t" x="58" y="118">FanZone · React</text>
+  <text class="s" x="58" y="136">webview · per-club theme</text>
+
+  <rect class="box" x="30" y="250" width="230" height="80" rx="8"/>
+  <text class="t" x="46" y="278">Back-office · React</text>
+  <text class="s" x="46" y="298">club staff manage content,</text>
+  <text class="s" x="46" y="314">events and Fan of the Match</text>
+
+  <!-- azure zone -->
+  <rect class="zone" x="330" y="24" width="500" height="372" rx="10"/>
+  <text class="s" x="346" y="46">Azure</text>
+
+  <rect class="key" x="350" y="130" width="220" height="110" rx="8"/>
+  <text class="t" x="366" y="156">Flask REST API</text>
+  <text class="s" x="366" y="176">SQLAlchemy · App Service</text>
+  <text class="s" x="366" y="192">autoscaling for match-day peaks</text>
+  <rect class="sec" x="366" y="204" width="188" height="24" rx="5"/>
+  <text class="lbl" x="376" y="220">JWT · HMAC-SHA256 · TOTP 2FA</text>
+
+  <rect class="box" x="630" y="70" width="180" height="120" rx="8"/>
+  <text class="t" x="646" y="96">MySQL</text>
+  <text class="s" x="646" y="116">one schema per club</text>
+  <rect class="box" x="646" y="128" width="46" height="22" rx="4"/><text class="lbl" x="654" y="143">club A</text>
+  <rect class="box" x="698" y="128" width="46" height="22" rx="4"/><text class="lbl" x="706" y="143">club B</text>
+  <rect class="box" x="750" y="128" width="46" height="22" rx="4"/><text class="lbl" x="762" y="143">…</text>
+  <text class="s" x="646" y="174">tenant isolation</text>
+
+  <rect class="box" x="630" y="250" width="180" height="80" rx="8"/>
+  <text class="t" x="646" y="276">Redis</text>
+  <text class="s" x="646" y="296">shared cache library,</text>
+  <text class="s" x="646" y="312">pattern-based invalidation</text>
+
+  <!-- arrows -->
+  <path class="line" d="M244 122 C300 122 300 170 348 170"/>
+  <text class="lbl" x="262" y="98">signed requests,</text>
+  <text class="lbl" x="262" y="111">adaptive polling</text>
+  <path class="line" d="M260 290 C305 290 305 210 348 210"/>
+  <path class="line" d="M570 165 C600 165 600 130 628 130"/>
+  <path class="line" d="M570 210 C600 210 600 290 628 290"/>
+
+  <text class="s" x="350" y="372">10+ clubs and competitions served from one codebase</text>
+</svg>
