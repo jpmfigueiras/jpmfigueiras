@@ -13,7 +13,7 @@
 <text x="24" y="190"><tspan fill="#1a7f37">joel@braga</tspan><tspan fill="#59636e">:~$ </tspan><tspan fill="#1f2328">cat focus.txt</tspan></text>
 <text x="24" y="212" fill="#0969da">MSc Cybersecurity · secure-by-design web platforms</text>
 <text x="24" y="234"><tspan fill="#1a7f37">joel@braga</tspan><tspan fill="#59636e">:~$ </tspan><tspan fill="#1f2328">git log --since=2026-01-01 | wc -l</tspan></text>
-<text x="24" y="256" fill="#0969da">contributing in 2026</text>
+<text x="24" y="256" fill="#0969da">873 contributions in 2026</text>
 <text x="24" y="278"><tspan fill="#1a7f37">joel@braga</tspan><tspan fill="#59636e">:~$ </tspan><tspan fill="#1f2328">▍<animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></tspan></text>
 </g>
 </svg>
